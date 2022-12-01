@@ -21,7 +21,7 @@ function App() {
       </Flex>
       <IconButton
         ml={8}
-        icon={isDark ? <FaSun /> : <FaMoon />}
+        icon={isDark ? <FaMoon /> : <FaSun />}
         isRound="true"
         onClick={toggleColorMode}
       ></IconButton>
