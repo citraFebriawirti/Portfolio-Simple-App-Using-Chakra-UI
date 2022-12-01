@@ -1,15 +1,10 @@
+import { FaSun, FaMoon } from "react-icons/fa";
+import { useColorMode } from "@chakra-ui/react";
 import { Flex, Heading, VStack } from "@chakra-ui/layout";
 import { IconButton } from "@chakra-ui/button";
-import {
-  FaSun,
-  FaMoon,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
-import { useColorMode } from "@chakra-ui/react";
+
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { toggleColorMode } = useColorMode();
   const isDark = "dark";
   return (
     <VStack p={5}>
