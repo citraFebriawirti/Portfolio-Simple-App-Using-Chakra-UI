@@ -8,14 +8,13 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { useColorMode } from "@chakra-ui/react";
-
 function App() {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = "dark";
   return (
     <VStack p={5}>
       <Flex w="100%">
-        <Heading ml="8" size="md" fontWeight="semibold" color="#2d3e50">
+        <Heading ml="7" size="md" fontWeight="semibold" color="#2d3e50">
           Meta-U
         </Heading>
       </Flex>
